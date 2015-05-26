@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PagingNavigation_WatchKit_App" customModuleProvider="target">
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <segue destination="PhV-g0-gDv" kind="relationship" relationship="nextPage" id="Uju-PG-KMs"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="180" y="322"/>
+        </scene>
+        <!--Interface Controller2-->
+        <scene sceneID="F3A-BN-IQj">
+            <objects>
+                <controller id="PhV-g0-gDv" customClass="InterfaceController2" customModule="PagingNavigation_WatchKit_Extension">
+                    <color key="backgroundColor" red="0.97647058819999999" green="1" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <segue destination="ln7-Sf-3sq" kind="relationship" relationship="nextPage" id="ein-D9-QXr"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="382" y="322"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="fgr-dy-hyf">
+            <objects>
+                <controller id="ln7-Sf-3sq">
+                    <color key="backgroundColor" red="0.3411764706" green="1" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="575" y="323"/>
+        </scene>
+    </scenes>
+</document>

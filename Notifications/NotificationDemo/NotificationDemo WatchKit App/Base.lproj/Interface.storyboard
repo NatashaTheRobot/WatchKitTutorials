@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="NotificationDemo_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView width="1" height="1" alignment="center" verticalAlignment="center" contentMode="scaleAspectFit" id="rIR-RI-aAf"/>
+                    </items>
+                    <connections>
+                        <outlet property="actionImage" destination="rIR-RI-aAf" id="9av-24-wtY"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="321" y="449"/>
+        </scene>
+        <!--background-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController backgroundImage="background" contentMode="scaleAspectFill" id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" wantsSashBlur="YES" id="JfB-70-Muf">
+                        <color key="sashColor" red="0.34509803919999998" green="0.98431372549999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </notificationCategory>
+                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="225" y="739"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="NotificationDemo_WatchKit_App" customModuleProvider="target">
+                    <color key="backgroundColor" red="0.36918650412894449" green="0.1494701121650347" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="448" y="739"/>
+        </scene>
+    </scenes>
+</document>

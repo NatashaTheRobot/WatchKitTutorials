@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKitMenu_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="There's a secret Menu here!" numberOfLines="0" id="a0c-iO-Ytm"/>
+                    </items>
+                    <menu key="menu" id="YLO-Gr-rXi">
+                        <items>
+                            <menuItem title="Play" icon="play" id="VeA-BH-euV">
+                                <connections>
+                                    <action selector="onPlayMenuItemTap" destination="AgC-eL-Hgc" id="oSL-z7-ft7"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Speaker" image="speaker" id="bcZ-Qu-lCK">
+                                <connections>
+                                    <action selector="onSpeakerMenuItemTap" destination="AgC-eL-Hgc" id="Azs-CW-Kxg"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="5" y="-295"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF7E00F1B01871200A4584D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E00E1B01871200A4584D /* AppDelegate.swift */; };
+		FAF7E0111B01871200A4584D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E0101B01871200A4584D /* ViewController.swift */; };
+		FAF7E0141B01871200A4584D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF7E0121B01871200A4584D /* Main.storyboard */; };
+		FAF7E0161B01871200A4584D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF7E0151B01871200A4584D /* Images.xcassets */; };
+		FAF7E0191B01871200A4584D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF7E0171B01871200A4584D /* LaunchScreen.xib */; };
+		FAF7E0251B01871200A4584D /* PagingNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E0241B01871200A4584D /* PagingNavigationTests.swift */; };
+		FAF7E0371B01872100A4584D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E0361B01872100A4584D /* InterfaceController.swift */; };
+		FAF7E0391B01872100A4584D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF7E0381B01872100A4584D /* Images.xcassets */; };
+		FAF7E03D1B01872100A4584D /* PagingNavigation WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FAF7E03C1B01872100A4584D /* PagingNavigation WatchKit App.app */; };
+		FAF7E0451B01872100A4584D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF7E0431B01872100A4584D /* Interface.storyboard */; };
+		FAF7E0471B01872100A4584D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF7E0461B01872100A4584D /* Images.xcassets */; };
+		FAF7E04A1B01872100A4584D /* PagingNavigation WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FAF7E0321B01872100A4584D /* PagingNavigation WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FAF7E0531B018BD800A4584D /* InterfaceController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E0521B018BD800A4584D /* InterfaceController2.swift */; };
+		FAF7E0551B018D1800A4584D /* InterfaceController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7E0541B018D1800A4584D /* InterfaceController3.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF7E01F1B01871200A4584D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF7E0011B01871200A4584D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF7E0081B01871200A4584D;
+			remoteInfo = PagingNavigation;
+		};
+		FAF7E03E1B01872100A4584D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF7E0011B01871200A4584D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF7E03B1B01872100A4584D;
+			remoteInfo = "PagingNavigation WatchKit App";
+		};
+		FAF7E0481B01872100A4584D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF7E0011B01871200A4584D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF7E0311B01872100A4584D;
+			remoteInfo = "PagingNavigation WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAF7E0511B01872100A4584D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FAF7E04A1B01872100A4584D /* PagingNavigation WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAF7E0091B01871200A4584D /* PagingNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagingNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF7E00D1B01871200A4584D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF7E00E1B01871200A4584D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF7E0101B01871200A4584D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF7E0131B01871200A4584D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF7E0151B01871200A4584D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAF7E0181B01871200A4584D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAF7E01E1B01871200A4584D /* PagingNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagingNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF7E0231B01871200A4584D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF7E0241B01871200A4584D /* PagingNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingNavigationTests.swift; sourceTree = "<group>"; };
+		FAF7E0321B01872100A4584D /* PagingNavigation WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PagingNavigation WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF7E0351B01872100A4584D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF7E0361B01872100A4584D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FAF7E0381B01872100A4584D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAF7E03C1B01872100A4584D /* PagingNavigation WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PagingNavigation WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF7E0421B01872100A4584D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF7E0441B01872100A4584D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FAF7E0461B01872100A4584D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAF7E0521B018BD800A4584D /* InterfaceController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController2.swift; sourceTree = "<group>"; };
+		FAF7E0541B018D1800A4584D /* InterfaceController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF7E0061B01871200A4584D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF7E01B1B01871200A4584D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF7E02F1B01872100A4584D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF7E0001B01871200A4584D = {
+			isa = PBXGroup;
+			children = (
+				FAF7E00B1B01871200A4584D /* PagingNavigation */,
+				FAF7E0211B01871200A4584D /* PagingNavigationTests */,
+				FAF7E0331B01872100A4584D /* PagingNavigation WatchKit Extension */,
+				FAF7E0401B01872100A4584D /* PagingNavigation WatchKit App */,
+				FAF7E00A1B01871200A4584D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF7E00A1B01871200A4584D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E0091B01871200A4584D /* PagingNavigation.app */,
+				FAF7E01E1B01871200A4584D /* PagingNavigationTests.xctest */,
+				FAF7E0321B01872100A4584D /* PagingNavigation WatchKit Extension.appex */,
+				FAF7E03C1B01872100A4584D /* PagingNavigation WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF7E00B1B01871200A4584D /* PagingNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E00E1B01871200A4584D /* AppDelegate.swift */,
+				FAF7E0101B01871200A4584D /* ViewController.swift */,
+				FAF7E0121B01871200A4584D /* Main.storyboard */,
+				FAF7E0151B01871200A4584D /* Images.xcassets */,
+				FAF7E0171B01871200A4584D /* LaunchScreen.xib */,
+				FAF7E00C1B01871200A4584D /* Supporting Files */,
+			);
+			path = PagingNavigation;
+			sourceTree = "<group>";
+		};
+		FAF7E00C1B01871200A4584D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E00D1B01871200A4584D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAF7E0211B01871200A4584D /* PagingNavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E0241B01871200A4584D /* PagingNavigationTests.swift */,
+				FAF7E0221B01871200A4584D /* Supporting Files */,
+			);
+			path = PagingNavigationTests;
+			sourceTree = "<group>";
+		};
+		FAF7E0221B01871200A4584D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E0231B01871200A4584D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAF7E0331B01872100A4584D /* PagingNavigation WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E0361B01872100A4584D /* InterfaceController.swift */,
+				FAF7E0521B018BD800A4584D /* InterfaceController2.swift */,
+				FAF7E0541B018D1800A4584D /* InterfaceController3.swift */,
+				FAF7E0381B01872100A4584D /* Images.xcassets */,
+				FAF7E0341B01872100A4584D /* Supporting Files */,
+			);
+			path = "PagingNavigation WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FAF7E0341B01872100A4584D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E0351B01872100A4584D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAF7E0401B01872100A4584D /* PagingNavigation WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E0431B01872100A4584D /* Interface.storyboard */,
+				FAF7E0461B01872100A4584D /* Images.xcassets */,
+				FAF7E0411B01872100A4584D /* Supporting Files */,
+			);
+			path = "PagingNavigation WatchKit App";
+			sourceTree = "<group>";
+		};
+		FAF7E0411B01872100A4584D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF7E0421B01872100A4584D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF7E0081B01871200A4584D /* PagingNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF7E0281B01871200A4584D /* Build configuration list for PBXNativeTarget "PagingNavigation" */;
+			buildPhases = (
+				FAF7E0051B01871200A4584D /* Sources */,
+				FAF7E0061B01871200A4584D /* Frameworks */,
+				FAF7E0071B01871200A4584D /* Resources */,
+				FAF7E0511B01872100A4584D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF7E0491B01872100A4584D /* PBXTargetDependency */,
+			);
+			name = PagingNavigation;
+			productName = PagingNavigation;
+			productReference = FAF7E0091B01871200A4584D /* PagingNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF7E01D1B01871200A4584D /* PagingNavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF7E02B1B01871200A4584D /* Build configuration list for PBXNativeTarget "PagingNavigationTests" */;
+			buildPhases = (
+				FAF7E01A1B01871200A4584D /* Sources */,
+				FAF7E01B1B01871200A4584D /* Frameworks */,
+				FAF7E01C1B01871200A4584D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF7E0201B01871200A4584D /* PBXTargetDependency */,
+			);
+			name = PagingNavigationTests;
+			productName = PagingNavigationTests;
+			productReference = FAF7E01E1B01871200A4584D /* PagingNavigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF7E0311B01872100A4584D /* PagingNavigation WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF7E04E1B01872100A4584D /* Build configuration list for PBXNativeTarget "PagingNavigation WatchKit Extension" */;
+			buildPhases = (
+				FAF7E02E1B01872100A4584D /* Sources */,
+				FAF7E02F1B01872100A4584D /* Frameworks */,
+				FAF7E0301B01872100A4584D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF7E03F1B01872100A4584D /* PBXTargetDependency */,
+			);
+			name = "PagingNavigation WatchKit Extension";
+			productName = "PagingNavigation WatchKit Extension";
+			productReference = FAF7E0321B01872100A4584D /* PagingNavigation WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FAF7E03B1B01872100A4584D /* PagingNavigation WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF7E04B1B01872100A4584D /* Build configuration list for PBXNativeTarget "PagingNavigation WatchKit App" */;
+			buildPhases = (
+				FAF7E03A1B01872100A4584D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PagingNavigation WatchKit App";
+			productName = "PagingNavigation WatchKit App";
+			productReference = FAF7E03C1B01872100A4584D /* PagingNavigation WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF7E0011B01871200A4584D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = NatashaTheRobot;
+				TargetAttributes = {
+					FAF7E0081B01871200A4584D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					FAF7E01D1B01871200A4584D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FAF7E0081B01871200A4584D;
+					};
+					FAF7E0311B01872100A4584D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					FAF7E03B1B01872100A4584D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = FAF7E0041B01871200A4584D /* Build configuration list for PBXProject "PagingNavigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF7E0001B01871200A4584D;
+			productRefGroup = FAF7E00A1B01871200A4584D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF7E0081B01871200A4584D /* PagingNavigation */,
+				FAF7E01D1B01871200A4584D /* PagingNavigationTests */,
+				FAF7E0311B01872100A4584D /* PagingNavigation WatchKit Extension */,
+				FAF7E03B1B01872100A4584D /* PagingNavigation WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF7E0071B01871200A4584D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF7E0141B01871200A4584D /* Main.storyboard in Resources */,
+				FAF7E0191B01871200A4584D /* LaunchScreen.xib in Resources */,
+				FAF7E0161B01871200A4584D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF7E01C1B01871200A4584D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF7E0301B01872100A4584D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF7E03D1B01872100A4584D /* PagingNavigation WatchKit App.app in Resources */,
+				FAF7E0391B01872100A4584D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF7E03A1B01872100A4584D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF7E0451B01872100A4584D /* Interface.storyboard in Resources */,
+				FAF7E0471B01872100A4584D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF7E0051B01871200A4584D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF7E0111B01871200A4584D /* ViewController.swift in Sources */,
+				FAF7E00F1B01871200A4584D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF7E01A1B01871200A4584D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF7E0251B01871200A4584D /* PagingNavigationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF7E02E1B01872100A4584D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF7E0531B018BD800A4584D /* InterfaceController2.swift in Sources */,
+				FAF7E0551B018D1800A4584D /* InterfaceController3.swift in Sources */,
+				FAF7E0371B01872100A4584D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF7E0201B01871200A4584D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF7E0081B01871200A4584D /* PagingNavigation */;
+			targetProxy = FAF7E01F1B01871200A4584D /* PBXContainerItemProxy */;
+		};
+		FAF7E03F1B01872100A4584D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF7E03B1B01872100A4584D /* PagingNavigation WatchKit App */;
+			targetProxy = FAF7E03E1B01872100A4584D /* PBXContainerItemProxy */;
+		};
+		FAF7E0491B01872100A4584D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF7E0311B01872100A4584D /* PagingNavigation WatchKit Extension */;
+			targetProxy = FAF7E0481B01872100A4584D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF7E0121B01871200A4584D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF7E0131B01871200A4584D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF7E0171B01871200A4584D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF7E0181B01871200A4584D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FAF7E0431B01872100A4584D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF7E0441B01872100A4584D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF7E0261B01871200A4584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF7E0271B01871200A4584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF7E0291B01871200A4584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PagingNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF7E02A1B01871200A4584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PagingNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAF7E02C1B01871200A4584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PagingNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagingNavigation.app/PagingNavigation";
+			};
+			name = Debug;
+		};
+		FAF7E02D1B01871200A4584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PagingNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagingNavigation.app/PagingNavigation";
+			};
+			name = Release;
+		};
+		FAF7E04C1B01872100A4584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = PagingNavigation_WatchKit_Extension;
+				INFOPLIST_FILE = "PagingNavigation WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FAF7E04D1B01872100A4584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = PagingNavigation_WatchKit_Extension;
+				INFOPLIST_FILE = "PagingNavigation WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FAF7E04F1B01872100A4584D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PagingNavigation WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FAF7E0501B01872100A4584D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PagingNavigation WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF7E0041B01871200A4584D /* Build configuration list for PBXProject "PagingNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF7E0261B01871200A4584D /* Debug */,
+				FAF7E0271B01871200A4584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF7E0281B01871200A4584D /* Build configuration list for PBXNativeTarget "PagingNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF7E0291B01871200A4584D /* Debug */,
+				FAF7E02A1B01871200A4584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF7E02B1B01871200A4584D /* Build configuration list for PBXNativeTarget "PagingNavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF7E02C1B01871200A4584D /* Debug */,
+				FAF7E02D1B01871200A4584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF7E04B1B01872100A4584D /* Build configuration list for PBXNativeTarget "PagingNavigation WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF7E04C1B01872100A4584D /* Debug */,
+				FAF7E04D1B01872100A4584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF7E04E1B01872100A4584D /* Build configuration list for PBXNativeTarget "PagingNavigation WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF7E04F1B01872100A4584D /* Debug */,
+				FAF7E0501B01872100A4584D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF7E0011B01871200A4584D /* Project object */;
+}
